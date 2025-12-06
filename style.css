@@ -1,0 +1,52 @@
+*{
+    color: #2b2b42;
+     font-family: "Red Hat Display", sans-serif;
+     font-weight: 400;
+}
+
+.title{
+
+    font-family: "Lexend", sans-serif;
+    color: #d80032;
+    background-color:#2b2b42;
+    font-weight: bold;
+    border-radius: 10px;
+    background-size: contain;
+    padding: 10px;
+    
+}
+
+.header{
+
+text-align: center;
+
+}
+
+#maintitle{
+
+background-color: transparent;
+font-weight: bolder;
+font-size: 50px;
+
+}
+
+.title:hover{
+
+    color: #edf2f4;
+    background-color: #d80032;
+
+}
+
+#maintitle:hover{
+
+    background-color: transparent;
+    color: #d80032;
+}
+
+p{
+    background-image: url(media/8287091.jpg);
+background-size:cover;
+border-radius: 10px;
+font-family: "Lexend", sans-serif;
+background-repeat: no-repeat;
+}
