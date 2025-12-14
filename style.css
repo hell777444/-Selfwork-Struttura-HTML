@@ -1,13 +1,13 @@
 *{
     color: #2b2b42;
-     font-family: "Red Hat Display", sans-serif;
-     font-weight: 400;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 400;
 }
 
 .title{
-
+    
     font-family: "Lexend", sans-serif;
-    color: #d80032;
+    color: yellow;
     background-color:#2b2b42;
     font-weight: bold;
     border-radius: 10px;
@@ -16,37 +16,167 @@
     
 }
 
-.header{
 
-text-align: center;
+.header_flex{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
+.links_nav_flex{
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.btn_1{
+    
+    background-color: #2b2b42;
+    color: yellow;
+    padding: 10px 20px ;
+    border-radius: 20px;
+    font-weight: bold;
+    
+    
+}
+
+.title_page{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#title_articoli{
+
+    margin-top: 100px;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+.navbar_page{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 21%;
+}
+
+.section_container{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly
+}
+
+.section_flex
+{
+    align-items: center;
+    width: 60%;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 20px;
+    
+}
+
+
+.article_flex{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin: 20px;
+    background-color: rgb(255, 255, 0);
+    border-radius: 20px;
+    
+}
+
+.btn_2
+{
+
+    color: yellow;
+    background-color: #2b2b42;
+
+}
+
+img{
+    
+    width: 90%;
+    height: 22%;
+    border-radius: 20px;
+    margin: 20px;
+
+    
+}
+
+
+
+
+
+
+
+
+aside{
+    
+    background-color: yellow;
+    height: 800px;
+    width: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+article{
+    
+    width: 700px;
+    min-height: 800px;
+    position: relative;
+    
+}
+
+
+p{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5% 2%;
+    text-align:justify
+}
+
+
+
+#cardtitle{
+    
+    margin: 20px;
+    font-size: 20px;
+    padding: 5% 5%;
+    
 }
 
 #maintitle{
-
-background-color: transparent;
-font-weight: bolder;
-font-size: 50px;
-
-}
-
-.title:hover{
-
-    color: #edf2f4;
-    background-color: #d80032;
-
-}
-
-#maintitle:hover{
-
+    
     background-color: transparent;
-    color: #d80032;
+    color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 0px;
+    
 }
 
-p{
-    background-image: url(media/8287091.jpg);
-background-size:cover;
-border-radius: 10px;
-font-family: "Lexend", sans-serif;
-background-repeat: no-repeat;
+
+/* Animazione hoover su bottoni navbar */
+
+.Hoover_btn{
+    text-decoration: none;
+    
+}
+.Hoover_btn:hover{
+    
+    border-bottom: rgb(0, 0, 0) solid 2px;
+    
 }
